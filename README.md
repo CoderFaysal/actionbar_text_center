@@ -29,3 +29,14 @@
 getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 getSupportActionBar().setCustomView(R.layout.toolbar_text_center);
 ```
+
+
+# Other Activity Action Bar Title Change
+
+## Java Code
+```
+ActionBar actionBar = getSupportActionBar();
+actionBar.setTitle("ঈদ মেসেজ");
+actionBar.setDisplayShowHomeEnabled(true);
+actionBar.setDisplayHomeAsUpEnabled(true);
+```
